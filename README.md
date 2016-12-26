@@ -7,10 +7,13 @@ Language used is Java and test are running within cucumber framework.
 
 # Requirements
 Windows 7 (or above) OS
+
 Intelij IDEA 15.0.3 (IDE)
 	- Maven plug in
 	- Cucumber plug in
+	
 Java sdk 8 (1.8)
+
 Google Chrome browser (Version 55.0.2883.87 m)
 
 
