@@ -19,11 +19,14 @@ Google Chrome browser (Version 55.0.2883.87 m)
 
 # Installation and execution
 Download the latest version of Google Chrome Driver (release 2.25) and uncompress in your local path "C://driver/chromedriver.exe"
+
 http://www.seleniumhq.org/download/
+
 http://chromedriver.storage.googleapis.com/index.html?path=2.25/
 
 Uncompress the project into your local system and run the tests from IDE running the file runTest (run) or from command line
 with the command:
+
 mvn clean install -Dtest=* test
 
 # Notes
