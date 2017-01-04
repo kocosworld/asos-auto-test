@@ -147,19 +147,19 @@ public class stepsDefinition {
         String URL = driver.getCurrentUrl();
 
         if (result.equals("MEN-S-GREEN")) {
-            expected_URL = "http://www.asos.com/au/search/Yellow-T-Shirt?q=Yellow+T-Shirt&refine=floor:1001|size:1873|base_colour:2&currentpricerange=0-80&pgesize=36";
+            expected_URL = "http://www.asos.com/au/search/Yellow-T-Shirt?q=Yellow+T-Shirt&refine=floor:1001|size:1873|base_colour:2&currentpricerange=0-75&pgesize=36";
         }
         if (result.equals("MEN-M-MULTI")) {
-            expected_URL = "http://www.asos.com/au/search/Yellow-T-Shirt?q=Yellow+T-Shirt&refine=floor:1001|size:1848|base_colour:17&currentpricerange=0-80&pgesize=36";
+            expected_URL = "http://www.asos.com/au/search/Yellow-T-Shirt?q=Yellow+T-Shirt&refine=floor:1001|size:1848|base_colour:17&currentpricerange=0-75&pgesize=36";
         }
         if (result.equals("MEN-L-YELLOW")) {
-            expected_URL = "http://www.asos.com/au/search/Yellow-T-Shirt?q=Yellow+T-Shirt&refine=floor:1001|size:1943|base_colour:6&currentpricerange=0-80&pgesize=36";
+            expected_URL = "http://www.asos.com/au/search/Yellow-T-Shirt?q=Yellow+T-Shirt&refine=floor:1001|size:1943|base_colour:6&currentpricerange=0-75&pgesize=36";
         }
         if (result.equals("WOMEN-AU4-YELLOW")) {
-            expected_URL = "http://www.asos.com/au/search/Yellow-T-Shirt?q=Yellow+T-Shirt&refine=floor:1000|size:1878|base_colour:6&currentpricerange=0-80&pgesize=36";
+            expected_URL = "http://www.asos.com/au/search/Yellow-T-Shirt?q=Yellow+T-Shirt&refine=floor:1000|size:1878|base_colour:6&currentpricerange=0-75&pgesize=36";
         }
         if (result.equals("WOMEN-AU18-YELLOW")) {
-            expected_URL = "http://www.asos.com/au/search/Yellow-T-Shirt?q=Yellow+T-Shirt&refine=floor:1000|size:1946|base_colour:6&currentpricerange=0-80&pgesize=36";
+            expected_URL = "http://www.asos.com/au/search/Yellow-T-Shirt?q=Yellow+T-Shirt&refine=floor:1000|size:1946|base_colour:6&currentpricerange=0-75&pgesize=36";
         }
 
         Assert.assertEquals(URL, expected_URL);
